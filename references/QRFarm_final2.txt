@@ -1,0 +1,103 @@
+﻿Dự Án
+ QRFarm
+Quản lý Nông sản bằng QR thông minh
+áp dụng 
+công nghệ Blockchain và mô hình GNN phân tích hành trình, dự báo doanh thu
+Minh bạch - Thông minh - Sinh lời
+***
+1. Mở đầu
+* Mỗi mùa thu hoạch, anh Nam chủ hợp tác xã sầu riêng Bến Tre luôn thấp thỏm:
+* Có kịp tiêu thụ trước khi trái chín rục không?
+* Người tiêu dùng ở Hà Nội có biết đây là sầu riêng đạt chuẩn GlobalGAP không? Hay họ mua mà không rõ nguồn gốc?
+* Mỗi lần nhập hàng, anh và công nhân phải cân đo, ghi chép thủ công từng quả – rất mất thời gian và dễ nhầm lẫn.
+* Sau khi áp dụng QRFarm:
+* Tại kho: Thiết bị IoT tự động ghi nhận thông tin từng quả sầu riêng và tạo QR định danh ngay khi nhập kho.
+* Mỗi lô hàng đều có QR truy xuất minh bạch với hành trình được ghi nhận trên Blockchain, chống mọi hành vi gian lận.
+* Quan trọng hơn, anh Nam có báo cáo AI dự báo nhu cầu tiêu thụ theo vùng cho tháng tới, giúp điều phối hàng thông minh, giảm tồn kho, tăng lợi nhuận hơn 20% chỉ sau 3 vụ mùa.
+2. Tóm tắt dự án
+* QRFarm là nền tảng giúp các doanh nghiệp nông sản và thương lái:
+* Minh bạch hóa toàn bộ hành trình sản phẩm bằng QR thông minh kết hợp Blockchain.
+* Tự động hoá khâu nhập kho bằng thiết bị IoT để ghi nhận dữ liệu sản phẩm và tạo mã QR định danh.
+* Phân tích dữ liệu hành trình, tiêu thụ bằng AI để dự báo doanh thu tháng sau và định hướng chiến lược thị trường.
+* Từ đó, giúp gia tăng niềm tin người tiêu dùng, đồng thời giúp doanh nghiệp tối ưu lợi nhuận và vận hành.
+3. Mục tiêu & giải pháp
+1. Vấn đề thị trường
+* Người tiêu dùng ngày càng yêu cầu nguồn gốc minh bạch của nông sản.
+* Các doanh nghiệp nông sản thiếu dữ liệu để dự đoán sản lượng & doanh thu, dẫn đến:
+* Lãng phí do tồn kho.
+* Hư hỏng hàng hóa.
+* Phân phối kém hiệu quả.
+* Việc nhập kho và kiểm hàng tại hợp tác xã, kho trung chuyển vẫn thủ công, dễ sai sót, chậm và thiếu đồng bộ dữ liệu.
+2. Cơ hội 
+* QR truy xuất là xu thế nhưng đa phần chỉ dừng ở hiển thị lịch sử, QRFarm giúp nâng tầm QR thành công cụ tối ưu vận hành và sinh lời.
+* IoT trong nông nghiệp đang dần phổ biến. Tuy nhiên, chưa có nền tảng kết nối tổng thể để dữ liệu đi vào hệ thống quản lý và phân tích.
+* Thị trường nông sản Việt Nam xuất khẩu và nội địa rất lớn, nhu cầu công nghệ đang tăng nhanh.
+3. Giải pháp
+   1. QR thông minh kết hợp Blockchain
+* Mỗi lô hàng có một QR mẹ, mỗi sản phẩm có một QR con
+* Mỗi lần quét QR:
+* Lưu hash dữ liệu lên blockchain, giúp chống gian lận hành trình.
+* Người tiêu dùng có thể kiểm tra dữ liệu trên blockchain minh bạch.
+   1. AI phân tích và dự báo
+* AI thu thập toàn bộ dữ liệu hành trình.
+* Dự báo: 
+* Doanh thu theo vùng/ tháng sau.
+* Xu hướng tiêu thụ từng vùng.
+* Cảnh báo tồn kho lâu, rủi ro tiêu thụ thấp.
+* Giúp doanh nghiệp ra quyết định chính xác hơn về:
+* Kênh phân phối.
+* Định giá theo vùng.
+* Điều phối hàng hóa hợp lý.
+   1. Hệ thống IoT tích hợp tự động hóa chuỗi cung ứng
+* Tại kho và điểm tập kết, thiết bị IoT tự động ghi nhận trọng lượng, chất lượng, mã lô và thời gian nhập kho.
+* Dữ liệu được gửi trực tiếp vào hệ thống, tạo QR con cho từng quả.
+* Điều này giảm thao tác thủ công, tăng độ chính xác, giúp quy trình nhập hàng và truy xuất nhanh, minh bạch và hiệu quả hơn.
+4. Thị trường mục tiêu
+Đối tượng
+	Giá trị mang lại
+	Doanh nghiệp sản xuất nông sản
+	- Tăng lợi nhuận, giảm hàng hư, tạo niềm tin người tiêu dùng.
+- Giảm hư hao nhờ cảm biến IoT giám sát chất lượng.
+	Thương lái trung gian
+	- Quản lý hiệu quả hành trình, dễ phối hợp phân phối.
+- IoT hỗ trợ cập nhật trạng thái sản phẩm theo thời gian thực.
+	Người tiêu dùng
+	- Đảm bảo minh bạch nguồn gốc, tăng độ tin cậy sản phẩm.
+	
+
+5. Mô hình kinh doanh
+* Bán gói dịch vụ SaaS cho doanh nghiệp nông sản:
+* Gói cơ bản: Tạo QR, truy xuất.
+* Gói nâng cao: Tích hợp blockchain, báo cáo và phân tích từ AI, kết nối IoT tại kho và kho lạnh để tự động thu thập dữ liệu đầu vào và bảo quản.
+* Phí dịch vụ quảng cáo trên web thông tin.
+* Tính phí theo số lượng QR sử dụng theo tháng, phí bổ sung nếu tích hợp thiết bị IoT.
+* Doanh thu bổ sung:
+* Hợp tác với nhà bán lẻ, chuỗi siêu thị.
+* Cung cấp báo cáo thị trường trả phí.
+6. Tính sáng tạo và điểm khác biệt
+Đặc điểm 
+	Dự án QR tương tự
+	QRFarm
+	Truy xuất nguồn gốc
+	Có
+	Có
+	Chống gian lận dữ liệu
+	Không
+	Có 
+	Phân tích AI
+	Không
+	Có 
+	Hỗ trợ quyết định, chiến lược kinh doanh
+	Không
+	Có
+	Tự động thu thập dữ liệu đầu vào
+	Không
+	Có 
+	7. Kỳ vọng tác động xã hội
+* Giúp nâng cao giá trị nông sản Việt Nam.
+* Tăng niềm tin người tiêu dùng trong nước và quốc tế.
+* Giảm lãng phí thực phẩm, hỗ trợ phát triển bền vững.
+* Thúc đẩy doanh nghiệp nông sản ứng dụng cho công nghệ hiện đại.
+8.  Lời kết
+* QRFarm mong muốn trở thành nền tảng tiêu chuẩn cho quản lý và tối ưu hóa chuỗi giá trị nông sản Việt Nam.
+* Chúng tôi không chỉ giúp truy xuất nguồn gốc minh bạch, mà còn giúp doanh nghiệp nắm bắt xu hướng thị trường, điều phối sản phẩm hiệu quả nhờ dữ liệu IoT thu thập theo thời gian thực, từ đó tăng trưởng bền vững và tạo ra giá trị mới cho toàn ngành nông sản.
